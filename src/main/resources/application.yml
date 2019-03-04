@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/vscg?useUnicode=true&characterEncoding=UTF-8&useAffectedRows=true
+    username: vscg
+    password: sailing
+
+dscg: #自定义的属性和值
+  zookeeperIps: 127.0.0.1:2181
+  zookeeperTimeout: 30000
+  localDBUserName: vscg
+  localDBPassword: sailing
+  excel: "/opt/vscg/web/excel/"
+  https: 172.20.52.130:8002
+  cbPort: 8000
+aop:
+  proxy-target-class: true
+
+#logging:
+#  level:
+#    com.sailing.dscg.dao: DEBUG
+
+mybatis:
+  type-aliases-pack: com.sailing.dscg.entity
+
+server:
+  servlet:
+    context-path: /vscg_ws/
+    session:
+      timeout: 3600
+
