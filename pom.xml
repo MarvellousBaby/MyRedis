@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 
-	<groupId>vscg_ws</groupId>
-	<artifactId>vscg_ws</artifactId>
+	<groupId>myredis</groupId>
+	<artifactId>myredis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>vscg_ws</name>
+	<name>myredis</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
